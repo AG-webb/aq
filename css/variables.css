@@ -1,0 +1,10 @@
+:root {
+    /* colors */
+    --main-color: #0029B6;
+    --bg-color: #F2F2F2;
+    --red: #EB1D27;
+
+    /* fonts */
+    --main-font: "Source Serif Pro";
+    --title-font: "Montserrat-black"
+}

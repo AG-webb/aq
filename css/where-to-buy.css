@@ -1,0 +1,206 @@
+.where-to-buy {
+    margin-top: 185px;
+}
+
+.where-to-buy-wrapper {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.where-to-buy-title {
+    padding: 44px 15px 44px 64px;
+    background-color: var(--bg-color);
+    position: relative;
+    margin-right: 24px;
+    flex: 1 1 auto;
+}
+
+.where-to-buy-title::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+    width: 64px;
+    height: 64px;
+    background-color: #fff;
+    border: 2px solid var(--main-color);
+    background-image: url(../src/img/where_to_buy/shop.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.where-to-buy-title h2 {
+    max-width: 200px;
+}
+
+.where-to-buy-icons {
+    display: flex;
+}
+
+.where-to-buy-icon {
+    background-color: #fff;
+    border: 2px solid #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 168px;
+}
+
+.where-to-buy-icon+.where-to-buy-icon {
+    margin-left: 32px;
+}
+
+.where-to-buy-btn {
+    margin-left: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 168px;
+}
+
+.where-to-buy-btn span {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    margin-left: 10px;
+}
+
+@media (max-width: 1350px) {
+    .where-to-buy {
+        margin-top: 145px;
+    }
+
+    .where-to-buy-title {
+        margin-right: 16px;
+        padding: 44px 15px 44px 56px;
+        flex: 1.8;
+    }
+
+    .where-to-buy-btn,
+    .where-to-buy-icon+.where-to-buy-icon {
+        margin-left: 16px;
+        width: initial;
+    }
+
+    .where-to-buy-icons {
+        flex: 5;
+    }
+
+    .where-to-buy-icon {
+        flex: 1;
+    }
+
+    .where-to-buy-btn {
+        flex: 1.2;
+    }
+}
+
+@media (max-width: 1024px) {
+    .where-to-buy-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .where-to-buy-title {
+        flex: 100%;
+        max-width: 100%;
+        padding: 45px 0 81px;
+        min-width: 100vw;
+        transform: translateX(-80px);
+    }
+
+    .where-to-buy-title::after {
+        top: 0;
+        left: 50%;
+    }
+
+    .where-to-buy-title h2 {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .where-to-buy-icons,
+    .where-to-buy-btn {
+        transform: translateY(-35%);
+        height: 170px;
+    }
+
+    .where-to-buy-btn {
+        flex: 1.524;
+    }
+
+    .where-to-buy-icon:last-child {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .where-to-buy-title {
+        transform: translateX(-64px);
+    }
+
+    .where-to-buy-icons,
+    .where-to-buy-btn {
+        height: 144px;
+    }
+}
+
+@media (max-width: 600px) {
+    .where-to-buy {
+        margin-top: 96px;
+    }
+
+    .where-to-buy-title {
+        transform: translateX(-64px);
+    }
+
+    .where-to-buy-title::after {
+        width: 48px;
+        height: 48px;
+        background-size: 18px 20px;
+    }
+
+    .where-to-buy-icons {
+        min-width: 120vw;
+        transform: translateY(-35%) translateX(-16%);
+    }
+
+    .where-to-buy-btn {
+        flex: 100%;
+        max-width: 100%;
+        margin-left: 0;
+        height: 48px;
+    }
+
+    .where-to-buy-btn img {
+        width: 13px;
+    }
+
+    .where-to-buy-btn span {
+        font-size: 16px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 450px) {
+    .where-to-buy-title {
+        transform: translateX(-16px);
+    }
+
+    .where-to-buy-icons {
+        min-width: 120vw;
+        transform: translateY(-35%) translateX(-9%);
+        height: 128px;
+    }
+
+    .where-to-buy-icon {
+        min-width: 128px;
+    }
+}
+@media (max-width: 321px) {
+    .where-to-buy-icons {
+        transform: translateY(-35%) translateX(-15%);
+    }
+}
