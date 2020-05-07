@@ -1,0 +1,156 @@
+@import "../fonts.css";
+@import "../reset.css";
+@import "../variables.css";
+@import "../global.css";
+@import "../header.css";
+@import "../footer.css";
+
+.product-container-big {
+    margin: 110px auto 0;
+    max-width: 745px;
+}
+.product-big-title {
+    margin-top: 40px;
+}
+
+.product-info-wrapper .container {
+    position: relative;
+}
+
+.product-info-wrapper {
+    padding-top: 70px;
+    margin-top: 65px;
+}
+
+.product-info-wrapper.after-element::after {
+    top: 0;
+    left: 0;
+    width: 1744px;
+    height: 1360px;
+}
+
+.product-info-wrapper .social-media-square {
+    top: 0;
+}
+
+.wipes-size {
+    position: absolute;
+    right: 80px;
+    top: 0;
+    width: 168px;
+    width: 184px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+}
+
+.wipes-size span:nth-child(2) {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.wipes-size span:nth-child(3) {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.product-info {
+    position: relative;
+    max-width: 745px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 72px 98px 80px 96px;
+    background-image: url("../../src/img/product/important.svg");
+    background-repeat: no-repeat;
+    background-size: 12px 24px;
+    background-position: right top;
+    background-origin: content-box;
+}
+
+.product-info-part+.product-info-part {
+    margin-top: 64px;
+}
+
+.product-info-decore {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border: 2px solid #F2F2F2;
+    position: absolute;
+    left: 0;
+    top: 55%;
+    transform: translateX(-50%);
+}
+
+.product-info-decore img {
+    width: 13px;
+    height: 26px;
+}
+
+.product-info-part .description {
+    margin-top: 24px;
+}
+
+.product-info-part .description.italic {
+    margin-top: 0;
+    font-style: italic;
+}
+
+.product-info-part .description.italic:last-child {
+    margin-top: 32px;
+    margin-bottom: 64px;
+}
+
+/* Media Queries */
+@media (max-width: 1350px) {
+    .product-big-img,
+    .product-big-title {
+        max-width: 680px;
+    }
+
+    .product-big-title {
+        margin-top: 33px;
+    }
+}
+
+@media (max-width: 992px) {
+    .product-container-big {
+        margin: 80px auto 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .product-big-img {
+        max-width: 456px;
+    }
+
+    .product-big-title {
+        max-width: 552px;
+        margin-top: 28px;
+    }
+}
+
+@media (max-width: 450px) {
+    .product-container-big {
+        margin: 57px auto 0;
+    }
+
+    .product-big-img {
+        max-width: 232px;
+    }
+
+    .product-big-title {
+        margin-top: 35px;
+    }
+}

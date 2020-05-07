@@ -38,6 +38,7 @@ h3 {
     line-height: 35px;
 }
 
+/* main wrapper container ===================*/
 .container {
     max-width: 1480px;
     padding: 0 80px;
@@ -50,12 +51,18 @@ h3 {
     font-weight: normal;
 }
 
+/* Borders ============*/
 .bordered {
     border: 1.5px solid var(--main-color);
 }
 
 .bordered+.bordered {
     border-left: none;
+}
+
+.title-bordered {
+    padding-bottom: 24px;
+    border-bottom: 2px solid var(--main-color);
 }
 
 .after-element {
@@ -66,9 +73,10 @@ h3 {
     content: "";
     position: absolute;
     background-color: var(--bg-color);
+    z-index: -1;
 }
 
-/* Social media */
+/* Social media ===============*/
 .social-media {
     display: flex;
     align-items: center;
@@ -89,18 +97,50 @@ h3 {
     justify-content: center;
 }
 
-/* See all btn */
+/* Social media square ==================*/
+.social-media-square {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 128px;
+}
+
+.social-icons-square {
+    width: 40px;
+    height: 40px;
+    margin-top: 22px;
+    background-color: #fff;
+    border-bottom: 2px solid #BDBDBD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.social-icons-square svg path {
+    transition: all 0.3s ease;
+}
+
+.social-icons-square:hover {
+    border-color: var(--main-color);
+}
+
+.social-icons-square:hover svg path {
+    fill: var(--main-color)
+}
+
+/* See all btn ================*/
 .see-all {
     display: flex;
     width: 360px;
 }
 
-.see-all .span {
+.see-all .text {
     display: flex;
     align-items: center;
     flex: 1 1 auto;
     padding-left: 24px;
-    font-family: "Montserrat-bold";
+    font-family: "Montserrat-medium";
     font-size: 16px;
 }
 
@@ -110,8 +150,40 @@ h3 {
     padding: 14px 14.75px;
 }
 
+/* Where to buy button */
+.where-buy-btn {
+    display: flex;
+    width: 552px;
+}
 
-/* For sliders */
+.where-buy-btn .shop {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    height: 64px;
+    background-color:  #E0E0E0;
+}
+
+.where-buy-btn .text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1 1 auto;
+    padding: 0 24px;
+    font-family: "Montserrat-bold";
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    background-color: var(--bg-color);
+    background-image: url("../src/img/btn-bg.png");
+    background-size: cover;
+    mix-blend-mode: darken;
+
+}
+
+
+/* For sliders ===============*/
 .slick-list {
     overflow: hidden;
 }
@@ -120,7 +192,51 @@ h3 {
     display: flex;
     align-items: flex-start;
 }
-/* ==========> */
+
+
+/* .Product container small */
+.product-container-sm {
+    margin-top: 104px;
+}
+
+.product-sm-wrapper {
+    max-width: 936px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-sm-block {
+    flex: 360px;
+    max-width: 360px;
+}
+
+.product-sm-img {
+}
+
+.product-sm-title {
+    
+}
+
+.product-sm-btn {
+    margin-top: 64px;
+}
+
+.product-sm-btn .see-all {
+    margin: 0 auto;
+}
+
+.see-all {
+}
+
+.text {
+}
+
+.bordered {
+}
+
+.plus {
+}
 
 /* Media Queries */
 @media (max-width: 1550px) {
@@ -129,15 +245,73 @@ h3 {
     }
 }
 
+@media (max-width: 1350px) {
+    .social-media-square {
+        left: 80px;
+    }
+
+    .where-buy-btn {
+        width: 504px;
+    }
+}
+
 @media (max-width: 992px) {
     .padding {
         padding: 0;
+    }
+
+    .social-media-square {
+        position: relative;
+        left: initial;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .social-media-square::after {
+        position: absolute;
+        content: "share it";
+        top: -100%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: "Montserrat-medium";
+        font-size: 15px;
+        line-height: 28px;
+        text-transform: uppercase;
+        color: #BDBDBD;
+    }
+
+    .social-icons-square {
+        margin-top: 0;
+        margin-left: 32px;
+        border-color: var(--main-color);
+    }
+    
+    .social-icons-square svg path {
+        fill: var(--main-color)
     }
 }
 
 @media (max-width: 768px) {
     .container {
         padding: 0 64px;
+    }
+
+    .title-bordered {
+        padding-bottom: 18px;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .where-buy-btn {
+        width: 552px;
     }
 }
 
@@ -158,6 +332,19 @@ h3 {
         width: 100%;
     }
 
+    .where-buy-btn {
+        width: 100%;
+    }
+
+    .where-buy-btn .shop {
+        width: 48px;
+        height: 48px;
+    }
+
+    .where-buy-btn .text {
+        font-size: 16px;
+    }
+
     .see-all span {
         font-size: 14px;
     }
@@ -169,7 +356,25 @@ h3 {
 }
 
 @media (max-width: 450px) {
+    h1 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    h3 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
     .container {
         padding: 0 16px;
+    }
+
+    .title-bordered {
+        padding-bottom: 14px;
+    }
+
+    .social-icons-square {
+        margin-left: 24px;
     }
 }
