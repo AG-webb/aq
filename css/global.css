@@ -68,6 +68,7 @@ h3 {
     background-color: var(--bg-color);
 }
 
+/* Social media */
 .social-media {
     display: flex;
     align-items: center;
@@ -88,14 +89,7 @@ h3 {
     justify-content: center;
 }
 
-.blur {
-    transition: all 0.3s ease;
-}
-
-.blur.active {
-    filter: blur(15px);
-}
-
+/* See all btn */
 .see-all {
     display: flex;
     width: 360px;
@@ -115,6 +109,18 @@ h3 {
     align-items: center;
     padding: 14px 14.75px;
 }
+
+
+/* For sliders */
+.slick-list {
+    overflow: hidden;
+}
+
+.slick-track{
+    display: flex;
+    align-items: flex-start;
+}
+/* ==========> */
 
 /* Media Queries */
 @media (max-width: 1550px) {

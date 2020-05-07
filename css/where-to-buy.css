@@ -50,6 +50,10 @@
     width: 168px;
 }
 
+.where-to-buy-icon .slick-list {
+    overflow: hidden;
+}
+
 .where-to-buy-icon+.where-to-buy-icon {
     margin-left: 32px;
 }
@@ -111,7 +115,9 @@
         max-width: 100%;
         padding: 45px 0 81px;
         min-width: 100vw;
-        transform: translateX(-80px);
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .where-to-buy-title::after {
@@ -140,10 +146,6 @@
 }
 
 @media (max-width: 768px) {
-    .where-to-buy-title {
-        transform: translateX(-64px);
-    }
-
     .where-to-buy-icons,
     .where-to-buy-btn {
         height: 144px;
@@ -160,10 +162,6 @@
         margin-top: 96px;
     }
 
-    .where-to-buy-title {
-        transform: translateX(-64px);
-    }
-
     .where-to-buy-title::after {
         width: 48px;
         height: 48px;
@@ -171,8 +169,18 @@
     }
 
     .where-to-buy-icons {
-        /* min-width: 120vw;
-        transform: translateY(-35%) translateX(-16%); */
+        display: block;
+        flex: none;
+        width: 432px;
+        height: 128px;
+        position: relative;
+        left: calc(50% + 8px);
+        transform: translateY(-35%) translateX(-50%);
+    }
+
+    .where-to-buy-icon {
+        height: 128px;
+        flex: none;
     }
 
     .where-to-buy-btn {
@@ -186,26 +194,5 @@
     .where-to-buy-btn span {
         font-size: 16px;
         line-height: 40px;
-    }
-}
-
-@media (max-width: 450px) {
-    .where-to-buy-title {
-        transform: translateX(-16px);
-    }
-
-    .where-to-buy-icons {
-        min-width: 120vw;
-        transform: translateY(-35%) translateX(-9%);
-        height: 128px;
-    }
-
-    .where-to-buy-icon {
-        min-width: 128px;
-    }
-}
-@media (max-width: 321px) {
-    .where-to-buy-icons {
-        transform: translateY(-35%) translateX(-15%);
     }
 }

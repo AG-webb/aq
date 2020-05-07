@@ -128,9 +128,9 @@
     justify-content: space-between;
     z-index: 5;
     padding: 70px 19px 19px;
+    transition: all 0.3s ease;
     opacity: 0;
     transform: scale(0);
-    transition: opacity 0.3s ease;
     background-color: #fff;
 }
 

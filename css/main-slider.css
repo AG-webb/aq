@@ -2,15 +2,6 @@
     margin-top: 110px;
 }
 
-.slick-list {
-    overflow: hidden;
-}
-
-.slick-track{
-    display: flex;
-    align-items: flex-start;
-}
-
 .slider-img {
     position: relative;
     width: 115vw;
