@@ -42,7 +42,6 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    z-index: 10;
     border: 0;
     background-color: #fff;
     cursor: pointer;
@@ -164,7 +163,12 @@
         display: none !important;
     }
 
+    .slider-img {
+        width: 142vw;
+    }
+
     .slider-img img {
-        margin-left: 20px;
+        margin-left: 0;
+        min-width: 232px;
     }
 }

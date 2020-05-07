@@ -1,11 +1,9 @@
 let burger = document.querySelector('.nav-burger');
 let menu = document.querySelector('.mobile-menu');
-let blurr = document.querySelector('.blur');
 
 burger.addEventListener('click', function() {
     this.classList.toggle('active');
     menu.classList.toggle('active');
-    blurr.classList.toggle('active');
     document.body.classList.toggle('lock');
 });
 
@@ -15,7 +13,6 @@ function myFunction(x) {
     if (x.matches) { // If media query matches
         burger.classList.remove('active');
         menu.classList.remove('active');
-        blurr.classList.remove('active');
         document.body.classList.remove('lock');
     }
 }

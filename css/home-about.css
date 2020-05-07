@@ -65,5 +65,16 @@
 
     .home-about-block {
         padding: 26px 40px 40px 24px;
+        border-width: 1px;
+    }
+
+    .home-about-block .description {
+        margin-top: 10px;
+    }
+
+    .home-about-decore {
+        max-width: 84px;
+        bottom: -1px;
+        right: -1px;
     }
 }

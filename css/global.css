@@ -96,12 +96,12 @@ h3 {
     filter: blur(15px);
 }
 
-.all-products {
+.see-all {
     display: flex;
     width: 360px;
 }
 
-.all-products .span {
+.see-all .span {
     display: flex;
     align-items: center;
     flex: 1 1 auto;
@@ -148,11 +148,11 @@ h3 {
 }
 
 @media (max-width: 500px) {
-    .all-products {
+    .see-all {
         width: 100%;
     }
 
-    .all-products span {
+    .see-all span {
         font-size: 14px;
     }
 

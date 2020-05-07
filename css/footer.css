@@ -11,10 +11,10 @@ footer {
 .footer-wrapper::after {
     content: "";
     position: absolute;
-    top: -2px;
-    left: -2px;
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
+    top: -3px;
+    left: -3px;
+    width: calc(100% + 6px);
+    height: calc(100% + 6px);
     border: 1px solid var(--main-color);
     z-index: 1;
 }
@@ -53,6 +53,11 @@ footer {
     flex-direction: column;
 }
 
+.phone a,
+.email a {
+    margin-left: 5px;
+}
+
 .phone a:hover,
 .email a:hover {
     text-decoration: underline;
@@ -72,7 +77,7 @@ footer {
         max-width: 144px;
     }
 
-    .footer-content {
+    footer .footer-content {
         border-top: none !important;
         border-left: 1px solid var(--main-color) !important;
     }
@@ -94,9 +99,17 @@ footer {
         justify-content: center;
     }
 }
+
+@media(max-width: 768px) {
+    footer {
+        margin-top: 104px;
+    }
+}
+
 @media (max-width: 600px) {
     .footer-content {
         font-size: 13px;
+        line-height: 24px;
     }
 
     .footer-content .social-media {
@@ -110,5 +123,11 @@ footer {
 
     .footer-content {
         padding: 25px 12px 45px;
+    }
+}
+
+@media (max-width: 450px) {
+    footer {
+        margin-top: 96px;
     }
 }

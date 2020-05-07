@@ -2,9 +2,12 @@
     margin-top: 185px;
 }
 
+.where-to-buy .see-all {
+    display: none;
+}
+
 .where-to-buy-wrapper {
     display: flex;
-    /* flex-wrap: wrap; */
 }
 
 .where-to-buy-title {
@@ -148,6 +151,11 @@
 }
 
 @media (max-width: 600px) {
+    .where-to-buy .see-all {
+        display: flex;
+        width: 100%;
+    }
+
     .where-to-buy {
         margin-top: 96px;
     }
@@ -163,15 +171,12 @@
     }
 
     .where-to-buy-icons {
-        min-width: 120vw;
-        transform: translateY(-35%) translateX(-16%);
+        /* min-width: 120vw;
+        transform: translateY(-35%) translateX(-16%); */
     }
 
     .where-to-buy-btn {
-        flex: 100%;
-        max-width: 100%;
-        margin-left: 0;
-        height: 48px;
+        display: none;
     }
 
     .where-to-buy-btn img {
