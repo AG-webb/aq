@@ -147,6 +147,10 @@
     margin: 0 5px;
 }
 
+.nav-right a img {
+    vertical-align: middle;
+}
+
 
 /* Mobile menu =============================*/
 .mobile-menu {
@@ -291,11 +295,7 @@
     }
 
     .nav-bar.fixed .nav-right {
-        max-width: 104px;
-    }
-
-    .nav-right a {
-        margin-top: 3px;
+        max-width: 115px;
     }
 
     .nav-burger {
