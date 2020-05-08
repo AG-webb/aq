@@ -68,7 +68,8 @@
 }
 
 .where-to-buy-btn span {
-    font-family: "Montserrat";
+    font-family: var(--title-font);
+    font-style: normal;
     font-weight: 500;
     font-size: 30px;
     line-height: 40px;

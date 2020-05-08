@@ -43,7 +43,9 @@ footer {
 }
 
 .copyrght {
-    font-family: "Source Serif Pro-bold";
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: bold;
     display: flex;
     flex-direction: column;
 }

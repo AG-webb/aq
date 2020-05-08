@@ -1,5 +1,7 @@
 body, html {
     font-family: var(--main-font);
+    font-style: normal;
+    font-weight: normal;
     font-size: 14px;
     color: var(--main-color);
     overflow-x: hidden;
@@ -19,6 +21,8 @@ h1,h2,h3 {
     font-family: var(--title-font);
     letter-spacing: -0.02em;
     text-transform: uppercase;
+    font-style: normal;
+    font-weight: 900;
 }
 
 h1 {
@@ -140,7 +144,9 @@ h3 {
     align-items: center;
     flex: 1 1 auto;
     padding-left: 24px;
-    font-family: "Montserrat-medium";
+    font-family: var(--title-font);
+    font-style: normal;
+    font-weight: 600;
     font-size: 16px;
 }
 
@@ -171,7 +177,9 @@ h3 {
     justify-content: space-between;
     flex: 1 1 auto;
     padding: 0 24px;
-    font-family: "Montserrat-bold";
+    font-family: var(--title-font);
+    font-style: normal;
+    font-weight: bold;
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: -0.02em;

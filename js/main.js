@@ -26,8 +26,7 @@ $(window).scroll(function() {
 
 // Functions
 function headerFixed(){
-    var main = $( "main" );
-    var offset_main = main.offset();
+    let offset_main = $( "main" ).offset();
 
     if (offset_main.top<=$(window).scrollTop()) {
         $(".nav-bar").addClass("fixed");

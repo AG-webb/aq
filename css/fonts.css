@@ -1,29 +1,47 @@
 @font-face {
-    font-family: "Montserrat-medium";
-    src: url("../src/fonts/Montserrat/Montserrat-Medium.ttf");
+    font-family: 'Montserrat';
+    src: url('../src/fonts/Montserrat/') format('woff2'),
+        url('../src/fonts/Montserrat/.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: "Montserrat-black";
-    src: url("../src/fonts/Montserrat/Montserrat-Black.ttf");
+    font-family: 'Montserrat';
+    src: url('../src/fonts/Montserrat/Montserrat-Bold.woff2') format('woff2'),
+        url('../src/fonts/Montserrat/Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: "Montserrat-bold";
-    src: url("../src/fonts/Montserrat/Montserrat-Bold.ttf");
+    font-family: 'Montserrat';
+    src: url('../src/fonts/Montserrat/Montserrat-Black.woff2') format('woff2'),
+        url('../src/fonts/Montserrat/Montserrat-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: "Montserrat-semibold";
-    src: url("../src/fonts/Montserrat/Montserrat-SemiBold.ttf");
+    font-family: 'Montserrat';
+    src: url('../src/fonts/Montserrat/Montserrat-Italic.woff2') format('woff2'),
+        url('../src/fonts/Montserrat/Montserrat-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
 }
 
 @font-face {
-    font-family: "Source Serif Pro";
-    src: url("../src/fonts/Source_Serif_Pro/SourceSerifPro-Regular.ttf");
+    font-family: 'Source Serif Pro';
+    src: url('../src/fonts/Source_Serif_Pro/.woff2') format('woff2'),
+        url('../src/fonts/Source_Serif_Pro/.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: "Source Serif Pro-bold";
-    src: url("../src/fonts/Source_Serif_Pro/SourceSerifPro-Bold.ttf");
+    font-family: 'Source Serif Pro';
+    src: url('../src/fonts/Source_Serif_Pro/SourceSerifPro-Bold.woff2') format('woff2'),
+        url('../src/fonts/Source_Serif_Pro/SourceSerifPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
 }

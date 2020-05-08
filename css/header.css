@@ -124,7 +124,9 @@
 }
 
 .nav-item {
-    font-family: "Montserrat-bold";
+    font-family: var(--title-font);
+    font-style: normal;
+    font-weight: bold;
     font-size: 14px;
     line-height: 28px;
     text-transform: uppercase;
@@ -147,7 +149,9 @@
 .lang {
     display: inline-flex;
     align-items: center;
-    font-family: "Montserrat-medium";
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
 }
 
 .lang img {
@@ -199,7 +203,9 @@
 }
 
 .mobile-menu-item {
-    font-family: "Montserrat-bold";
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
     font-size: 18px;
     line-height: 28px;
     text-transform: uppercase;
