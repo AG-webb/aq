@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Montserrat';
-    src: url('../src/fonts/Montserrat/') format('woff2'),
-        url('../src/fonts/Montserrat/.woff') format('woff');
+    src: url('../src/fonts/Montserrat/Montserrat-Medium.woff') format('woff2'),
+        url('../src/fonts/Montserrat/Montserrat-Medium.woff2') format('woff');
     font-weight: 500;
     font-style: normal;
 }
@@ -32,8 +32,8 @@
 
 @font-face {
     font-family: 'Source Serif Pro';
-    src: url('../src/fonts/Source_Serif_Pro/.woff2') format('woff2'),
-        url('../src/fonts/Source_Serif_Pro/.woff') format('woff');
+    src: url('../src/fonts/Source_Serif_Pro/SourceSerifPro-Regular.woff') format('woff2'),
+        url('../src/fonts/Source_Serif_Pro/SourceSerifPro-Regular.woff2') format('woff');
     font-weight: normal;
     font-style: normal;
 }
