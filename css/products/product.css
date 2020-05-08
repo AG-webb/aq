@@ -99,7 +99,7 @@ main {
     border: 2px solid #F2F2F2;
     position: absolute;
     left: 0;
-    top: 54.6%;
+    top: 53.2%;
     transform: translateX(-50%);
 }
 
@@ -154,7 +154,7 @@ main {
     }
 
     .product-info-decore {
-        top: 55.6%;
+        top: 54%;
     }
 
     .product-info-block {
