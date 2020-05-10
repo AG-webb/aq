@@ -291,7 +291,9 @@ h3 {
         top: -40px;
         left: 50%;
         transform: translateX(-50%);
-        font-family: "Montserrat-medium";
+        font-family: var(--title-font);
+        font-style: normal;
+        font-weight: 600;
         font-size: 15px;
         line-height: 28px;
         text-transform: uppercase;
@@ -428,11 +430,11 @@ h3 {
     }
 
     .title-bordered {
-        padding-bottom: 14px;
+        padding-bottom: 24px;
         border-width: 1px;
     }
 
-    .social-icons-square {
+    .social-icons-square+.social-icons-square {
         margin-left: 24px;
     }
 
