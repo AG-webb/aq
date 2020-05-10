@@ -4,13 +4,13 @@ let lang = document.querySelector('.lang');
 let body = document.body;
 
 lang.addEventListener('click', function() {
-    togle(this, 'active');
+    toggle(this, 'active');
 });
 
 burger.addEventListener('click', function() {
-    togle(this, 'active');
-    togle(menu, 'active');
-    togle(body, 'lock');
+    toggle(this, 'active');
+    toggle(menu, 'active');
+    toggle(body, 'lock');
 });
 
 
@@ -45,6 +45,6 @@ function myFunction(x) {
     }
 }
 
-function togle(element, add) {
+function toggle(element, add) {
     return element.classList.toggle(add);
 } 
