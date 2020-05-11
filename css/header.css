@@ -213,6 +213,10 @@
     margin-top: 20px;
 }
 
+.mobile-menu-item.active {
+    color: var(--red);
+}
+
 .mobile-menu-item:hover {
     color: var(--red);
 }
