@@ -122,6 +122,7 @@ main {
     background-image: url("../../src/img/product/line-bg.svg");
     background-repeat: no-repeat;
     background-size: contain;
+    background-size: 100%;
     background-position: bottom left;
     padding-bottom: 16px;
 }
@@ -280,6 +281,10 @@ main {
         height: 86.7%;
     }
 
+    .product-info-part .description {
+        margin-top: 19px;
+    }
+
     .product-info-part .description.italic:nth-child(2) {
         padding-bottom: 25px;
     }
@@ -360,6 +365,10 @@ main {
 
     .product-info-decore {
         margin-top: 48px;
+    }
+
+    .product-info-part .description {
+        margin-top: 16px;
     }
 
     .product-info-part .description.italic:nth-child(2) {
