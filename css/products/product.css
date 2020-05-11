@@ -242,6 +242,10 @@
     .product-info-part+.product-info-part {
         margin-top: 50px;
     }
+
+    .product-info-wrapper .social-icons-square {
+        background-color:  #fff;
+    }
 }
 
 @media (max-width: 768px) {

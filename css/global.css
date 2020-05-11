@@ -329,6 +329,7 @@ main {
     .social-icons-square {
         margin-bottom: 0;
         border-color: var(--main-color);
+        background-color:  var(--bg-color);
     }
 
     .social-icons-square+.social-icons-square {
