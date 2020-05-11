@@ -442,6 +442,10 @@ h3 {
         padding: 0 14px;
     }
 
+    .social-media-square::after {
+        font-size: 10px;
+    }
+
     .product-sm-img {
         max-width: 227px;
         margin: 0 auto;
