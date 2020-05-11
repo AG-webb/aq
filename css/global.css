@@ -163,7 +163,8 @@ main {
 /* Where to buy button */
 .where-buy-btn {
     display: flex;
-    width: 552px;
+    width: 100%;
+    max-width: 552px;
     position: relative;
     z-index: 2;
 }
@@ -253,6 +254,7 @@ main {
     margin: 0 auto;
 }
 
+
 /* Media Queries */
 @media (min-width: 1950px) {
     .product-container-sm-wrapper::after {
@@ -272,7 +274,7 @@ main {
     }
 
     .where-buy-btn {
-        width: 504px;
+        max-width: 504px;
     }
 
     .container-wrapper {
@@ -341,7 +343,7 @@ main {
     }
 
     .where-buy-btn {
-        width: 100%;
+        max-width: 552px;
     }
 
     .container-wrapper {
@@ -393,6 +395,10 @@ main {
     .description {
         font-size: 14px;
         line-height: 24px;
+    }
+
+    .where-buy-btn {
+        max-width: 100%;
     }
 
     .where-buy-btn .text {
