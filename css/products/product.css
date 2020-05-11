@@ -33,6 +33,10 @@
     top: 0;
 }
 
+.product-info-wrapper .social-icons-square {
+    background-color:  #fff;
+}
+
 .wipes-size {
     position: absolute;
     right: 80px;
@@ -241,10 +245,6 @@
 
     .product-info-part+.product-info-part {
         margin-top: 50px;
-    }
-
-    .product-info-wrapper .social-icons-square {
-        background-color:  #fff;
     }
 }
 
