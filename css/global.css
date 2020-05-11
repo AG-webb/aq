@@ -164,6 +164,8 @@ main {
 .where-buy-btn {
     display: flex;
     width: 552px;
+    position: relative;
+    z-index: 2;
 }
 
 .where-buy-btn .shop {
@@ -221,8 +223,7 @@ main {
 }
 
 .product-container-sm {
-    margin: 0 auto;
-    padding-top: 96px;
+    margin: 96px auto 0;
     width: 100%;
     max-width: 936px;
 }
@@ -287,7 +288,7 @@ main {
         max-width: 877px;
         margin-left: 0;
         margin-right: 0;
-        padding-top: 144px;
+        margin-top: 144px;
     }
 
     .product-sm-btn {
@@ -354,7 +355,7 @@ main {
 
     .product-container-sm {
         max-width: 648px;
-        padding-top: 64px;
+        margin-top: 64px;
     }
 }
 
@@ -407,7 +408,7 @@ main {
     }
 
     .product-container-sm {
-        padding-top: 72px;
+        margin-top: 72px;
     }
 
     .product-sm-wrapper {
