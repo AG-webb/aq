@@ -5,10 +5,6 @@
 @import "../header.css";
 @import "../footer.css";
 
-main {
-    margin-top: 110px;
-}
-
 .product-container-big {
     margin: 0 auto;
     max-width: 745px;
@@ -220,10 +216,6 @@ main {
 
 @media (max-width: 992px) {
 
-    main {
-        margin-top: 80px;
-    }
-
     .product-info-wrapper {
         padding-top: 24px;
         margin-top: 40px;
@@ -299,10 +291,6 @@ main {
         left: 50%;
         transform: translateX(-50%);
         width: 100vw;
-    }
-
-    main {
-        margin-top: 57px;
     }
 
     .product-big-img {
