@@ -31,6 +31,7 @@
 
 .product-info-wrapper .social-media-square {
     top: 0;
+    left: 128px;
 }
 
 .product-info-wrapper .social-icons-square {
@@ -139,6 +140,9 @@
     }  
 }
 @media (max-width: 1350px) {
+    .product-info-wrapper .social-media-square {
+        left: 80px;
+    }
 
     .product-big-img,
     .product-big-title {
@@ -227,6 +231,10 @@
 
     .wipes-size {
         max-width: initial;
+    }
+
+    .product-info-wrapper .social-media-square {
+        left: initial;
     }
 
     .product-info {

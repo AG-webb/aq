@@ -16,8 +16,13 @@
     top: 288px;
 }
 
+.inner-page .product-container-sm {
+    margin-top: 135px;
+}
+
 .inner-page .product-container-sm-wrapper::after {
     width: 90%;
+    height: 230px;
 }
 
 .inner-page .container-wrapper {
@@ -85,6 +90,7 @@
 
     .inner-page .product-container-sm-wrapper::after {
         width: 96%;
+        height: 210px;
     }
 
     .inner-page-wrapper .where-buy-btn {
@@ -118,6 +124,7 @@
 
     .inner-page .product-container-sm-wrapper::after {
         width: 100%;
+        height: 180px;
     }
 
     .inner-page .container-wrapper {
@@ -181,6 +188,10 @@
 
     .inner-page-info {
         padding-top: 28px;
+    }
+
+    .inner-page .product-container-sm-wrapper::after {
+        height: 126px;
     }
 
     .inner-info-part:first-child {
