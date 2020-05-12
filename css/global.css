@@ -265,7 +265,7 @@ main {
 
 @media (max-width: 1550px) {
     .padding {
-        padding: 0 88px;
+        padding: 0 0 0 88px;
     }
 }
 

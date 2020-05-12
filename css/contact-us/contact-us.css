@@ -1,0 +1,153 @@
+@import "../fonts.css";
+@import "../reset.css";
+@import "../variables.css";
+@import "../global.css";
+@import "../header.css";
+@import "../footer.css";
+
+.contact-wrapper {
+    max-width: 1262px;
+    position: relative;
+    padding-left: 192px;
+}
+
+.contact-container {
+    margin-top: 77px;
+    display: flex;
+}
+
+.contact-map {
+    width: 100%;
+    max-width: 638px;
+    margin-right: 125px;
+    height: 342px;
+    border: 2px solid #0029B6;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-text {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-block .name,
+.contact-block .info {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 32px;
+    display: block;
+}
+
+.contact-block .name {
+    font-weight: normal;
+
+}
+
+.contact-block .info {
+    font-weight: bold;
+}
+
+.contact-block:nth-child(2) .info:hover,
+.contact-block:last-child .info:hover {
+    text-decoration: underline;
+}
+
+.contact-social-media {
+    margin-top: 56px;
+}
+
+/* Media Queries */
+@media (max-width: 1350px) {
+    .contact-wrapper {
+        padding-left: 176px;
+    }
+
+    .contact-container {
+        margin-top: 60px;
+    }
+
+    .contact-map {
+        margin-right: 68px;
+        height: 312px;
+    }
+
+    .contact-social-media {
+        margin-top: 34px;
+    }
+}
+
+@media (max-width: 992px) {
+    .contact-wrapper {
+        padding-left: 0;
+    }
+
+    .contact-container {
+        margin-top: 55px;
+        flex-direction: column;
+    }
+
+    .contact-map {
+        max-width: 100%;
+        height: 342px;
+        margin: 0;
+    }
+
+    .contact-info {
+        margin-top: 5px;
+        flex-direction: row;
+        margin-bottom: 76px;
+    }
+
+    .contact-block {
+        margin-top: 28px;
+    }
+
+    .contact-social-media {
+        margin-top: 24px;
+    }
+}
+
+@media (max-width: 450px) {
+    .contact-wrapper h1 {
+        font-size: 26px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .contact-container {
+        margin-top: 42px;
+    }
+
+    .contact-map {
+        height: 200px;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        margin-top: -3px;
+        text-align: center;
+    }
+
+    .contact-block .name,
+    .contact-block .info {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .contact-social-media .social-media {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 320px) {
+    .contact-map {
+        height: 152px;
+    }   
+}

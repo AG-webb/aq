@@ -179,5 +179,6 @@
     .where-buy-inner-wrapper h1 {
         font-size: 26px;
         line-height: 24px;
+        text-align: center;
     }
 }
