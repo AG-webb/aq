@@ -183,7 +183,7 @@
 
 @media (max-width: 450px) {
     .decore-top {
-        height: 155px;
+        height: 213px;
     }
 
     .inner-page-info {
@@ -199,14 +199,19 @@
     }
 
     .inner-info-part h1 {
-        margin-bottom: 94px;
-        padding-right: 75px;
-        line-height: 1;
-        display: block;
+        margin-bottom: 24px;
+        text-align: center;
     }
 
     .inner-page-decore {
-        width: 70.4px;
+        position: static;
+        width: 100%;
+    }
+
+    .inner-page-decore img {
+        width: 77.4px;
+        display: block;
+        margin: 0 auto;
     }
 
     .inner-info-part+.inner-info-part {
