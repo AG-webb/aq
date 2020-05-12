@@ -183,7 +183,7 @@
 
 @media (max-width: 450px) {
     .decore-top {
-        height: 193px;
+        height: 155px;
     }
 
     .inner-page-info {
@@ -200,6 +200,9 @@
 
     .inner-info-part h1 {
         margin-bottom: 94px;
+        padding-right: 75px;
+        line-height: 1;
+        display: block;
     }
 
     .inner-page-decore {
