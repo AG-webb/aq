@@ -4,7 +4,7 @@ lng = parseFloat(lng);
 
 // initialize the map
 let mymap = L.map('map').setView([lat, lng], 14);
-let myFilter = ['grayscale:100%','bright:110%',,'contrast:120%'];
+let myFilter = ['grayscale:100%','contrast:124%','saturate:0%'];
 
 L.tileLayer.colorFilter(
 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {

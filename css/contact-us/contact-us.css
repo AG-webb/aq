@@ -123,6 +123,10 @@
 }
 
 @media (max-width: 450px) {
+    .decore-top {
+        height: 250px;
+    }
+
     .contact-wrapper h1 {
         font-size: 26px;
         line-height: 24px;
@@ -155,6 +159,10 @@
 }
 
 @media (max-width: 320px) {
+    .decore-top {
+        height: 220px;
+    }
+
     .contact-map {
         height: 152px;
     }   
