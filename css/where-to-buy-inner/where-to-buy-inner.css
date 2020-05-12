@@ -1,0 +1,183 @@
+@import "../fonts.css";
+@import "../reset.css";
+@import "../variables.css";
+@import "../global.css";
+@import "../header.css";
+@import "../footer.css";
+
+
+.where-buy-inner-wrapper {
+    max-width: 1032px;
+    padding-left: 192px;
+    position: relative;
+}
+
+.where-buy-inner {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.supermarket-wrapper {
+    flex: 50%;
+    max-width: 50%;
+}
+
+.supermarket-wrapper:not(:first-child):not(:nth-child(2)) {
+    margin-top: 56px;
+}
+
+.supermarket-wrapper:nth-child(odd) {
+    padding-right: 60px;
+}
+
+.supermarket-wrapper:nth-child(even) {
+    padding-left: 60px;
+}
+
+.supermarket-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 240px;
+    background-color: #fff;
+    border: 2px solid #F2F2F2;
+}
+
+.supermarket-name,
+.supermarket-link {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.supermarket-name {
+    font-weight: bold;
+    margin-top: 24px;
+}
+
+.supermarket-link {
+    font-weight: normal;
+}
+/* Media Queries */
+@media (max-width: 1350px) {
+    .decore-top {
+        height: 445px;
+    }
+
+    .where-buy-inner-wrapper {
+        padding-left: 176px;
+    }
+
+    .where-buy-inner {
+        margin-top: 55px;
+    }
+
+    .supermarket-wrapper:not(:first-child):not(:nth-child(2)) {
+        margin-top: 72px;
+    }
+    
+    .supermarket-wrapper:nth-child(odd) {
+        padding-right: 12px;
+    }
+    
+    .supermarket-wrapper:nth-child(even) {
+        padding-left: 12px;
+    }
+}
+
+@media (max-width: 992px) {
+    .decore-top {
+        height: 373px;
+    }
+
+    .where-buy-inner-wrapper {
+        padding-left: 0;
+    }
+
+    .where-buy-inner {
+        margin-bottom: 96px;
+    }
+
+    .supermarket-block {
+        height: 216px;
+    }
+
+    .supermarket-wrapper:not(:first-child):not(:nth-child(2)) {
+        margin-top: 24px;
+    }
+
+    .supermarket-name {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 650px) {
+    .supermarket-wrapper:first-child img {
+        max-width: 84.78px;
+    }
+
+    .supermarket-wrapper:nth-child(2) img {
+        max-width: 51.69px;
+    }
+
+    .supermarket-wrapper:nth-child(3) img {
+        max-width: 39.49px;
+    }
+
+    .supermarket-wrapper:nth-child(4) img {
+        max-width: 39.44px;
+    }
+
+    .supermarket-name,
+    .supermarket-link {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .supermarket-name {
+        margin-top: 16px;
+    }
+}
+
+@media (max-width: 550px) {
+    .decore-top {
+        height: 240px;
+    }
+
+    .where-buy-inner {
+        flex-direction: column;
+        margin-top: 40px;
+        margin-bottom: 72px;
+    }
+
+    .supermarket-wrapper {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .supermarket-wrapper:nth-child(odd) {
+        padding-right: 0;
+    }
+    
+    .supermarket-wrapper:nth-child(even) {
+        padding-left: 0;
+    }
+
+    .supermarket-wrapper:not(:first-child) {
+        margin-top: 16px !important;
+    }
+
+    .supermarket-block {
+        height: 152px;
+    }
+}
+
+@media (max-width: 450px) {
+    .where-buy-inner-wrapper h1 {
+        font-size: 26px;
+        line-height: 24px;
+    }
+}
