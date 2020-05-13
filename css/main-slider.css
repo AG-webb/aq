@@ -89,6 +89,12 @@
     }
 }
 
+@media (max-width: 1440px) {
+    .slider-img .slick-arrow.slick-next {
+        left: 50.5%;
+    }
+}
+
 @media (max-width: 1350px) {
     .slider-img img {
         max-width: 680px;
