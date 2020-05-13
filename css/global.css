@@ -46,6 +46,10 @@ main {
     margin-top: 110px;
 }
 
+.main-p {
+    padding-top: 128px;
+}
+
 /* main wrapper container ===================*/
 .container {
     max-width: 1480px;

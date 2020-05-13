@@ -19,19 +19,20 @@ myFunction(x) // Call listener function at run time
 x.addListener(myFunction);
 
 
-$(window).scroll(function() {
+window.addEventListener("scroll", function() {
     headerFixed();  
 });
 
 
-// Functions
+// Functions ==================
 function headerFixed(){
-    let offset_main = $( "main" ).offset();
+    let nav = document.querySelector(".nav-bar");
+    let offset_main = document.querySelector("main").offsetTop;
 
-    if (offset_main.top<=$(window).scrollTop()) {
-        $(".nav-bar").addClass("fixed");
+    if (offset_main <= window.scrollY) {
+        nav.classList.add("fixed");
     } else {
-        $(".nav-bar").removeClass("fixed");
+        nav.classList.remove("fixed");
     }
 }
 
@@ -45,6 +46,7 @@ function myFunction(x) {
     }
 }
 
+// Toggle function
 function toggle(element, add) {
     return element.classList.toggle(add);
 } 
