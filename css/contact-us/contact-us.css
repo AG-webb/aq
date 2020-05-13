@@ -5,6 +5,12 @@
 @import "../header.css";
 @import "../footer.css";
 
+
+#map {
+    height: 100%;
+    width: 100%;
+}
+
 .decore-top {
     height: 455px;
 }
