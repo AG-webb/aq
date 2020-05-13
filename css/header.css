@@ -60,7 +60,7 @@
     top: 0;
     left: 0;
     height: 100%;
-    width: 2px;
+    width: 1.2px;
     background-color: #C0C9E8;
 }
 
@@ -69,8 +69,8 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: 2px;
-    height: 2px;
+    left: 1.2px;
+    height: 1.2px;
     width: 12px;
     background-color: #C0C9E8;
 }
