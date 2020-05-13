@@ -482,6 +482,10 @@ main {
         border-width: 1px;
     }
 
+    .see-all .text {
+        padding-left: 16px;
+    }
+
     .social-icons-square+.social-icons-square {
         margin-left: 24px;
     }
