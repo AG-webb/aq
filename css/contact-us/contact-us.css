@@ -116,7 +116,6 @@
     .contact-info {
         margin-top: 5px;
         flex-direction: row;
-        margin-bottom: 76px;
     }
 
     .contact-block {
@@ -125,6 +124,10 @@
 
     .contact-social-media {
         margin-top: 24px;
+    }
+
+    footer {
+        margin-top: 64px;
     }
 }
 
@@ -161,6 +164,10 @@
 
     .contact-social-media .social-media {
         justify-content: center;
+    }
+
+    footer {
+        margin-top: 54px;
     }
 }
 

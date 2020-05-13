@@ -314,6 +314,7 @@ main {
         top: initial;
         flex-direction: row;
         justify-content: center;
+        margin-top: 90px;
     }
 
     .social-media-square::after {
@@ -407,16 +408,12 @@ main {
         font-size: 16px;
     }
 
-    .social-media-square::after {
-        top: -32px;
-    }
-
     .product-container-sm-wrapper::after {
         height: 188px;
     }
 
     .product-container-sm {
-        margin-top: 72px;
+        margin-top: 64px;
     }
 
     .product-sm-wrapper {
@@ -493,8 +490,17 @@ main {
         padding: 0 14px;
     }
 
+    .social-media-square {
+        margin-top: 72px;
+    }
+
     .social-media-square::after {
-        font-size: 14px;
+        top: -32px;
+        font-size: 12px;
+    }
+
+    .product-container-sm {
+        margin-top: 54px;
     }
 
     .product-container-sm-wrapper::after {

@@ -109,12 +109,15 @@
 
     .products-wrapper .where-buy-btn {
         margin-top: 64px;
-        margin-bottom: 96px;
     }
 
     .product-big-title span {
         font-size: 18px;
         line-height: 28px;
+    }
+
+    footer {
+        margin-top: 64px;
     }
 }
 
@@ -169,6 +172,9 @@
 
     .products-wrapper .where-buy-btn {
         margin-top: 0;
-        margin-bottom: 64px;
+    }
+
+    footer {
+        margin-top: 54px;
     }
 }

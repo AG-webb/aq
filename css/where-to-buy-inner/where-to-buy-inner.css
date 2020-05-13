@@ -98,10 +98,6 @@
         padding-left: 0;
     }
 
-    .where-buy-inner {
-        margin-bottom: 96px;
-    }
-
     .supermarket-block {
         height: 216px;
     }
@@ -112,6 +108,10 @@
 
     .supermarket-name {
         margin-top: 20px;
+    }
+
+    footer {
+        margin-top: 64px;
     }
 }
 
@@ -150,7 +150,6 @@
     .where-buy-inner {
         flex-direction: column;
         margin-top: 40px;
-        margin-bottom: 72px;
     }
 
     .supermarket-wrapper {
@@ -180,5 +179,9 @@
         font-size: 26px;
         line-height: 24px;
         text-align: center;
+    }
+
+    footer {
+        margin-top: 54px;
     }
 }
