@@ -9,6 +9,7 @@
 
 .slide-img {
     overflow: hidden;
+    font-size: 0;
 }
 
 .slide-img img {
@@ -18,6 +19,11 @@
     width: 100%;
     max-width: 740px;
     margin-left: 100px;
+}
+
+.slider-img .slick-active {
+    width: 100% !important;
+    max-width: 740px;
 }
 
 .slide-img.slick-current img {
