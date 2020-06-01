@@ -3,21 +3,22 @@ $(document).ready(function() {
     $('.slider-img').slick({
         dots: false,
         speed: 1000,
-        slidesToShow: 2,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        asNavFor: '.slider-text',
+        slidesToShow: 1,
+        adaptiveHeight: true,
+        // autoplay: true,
+        // autoplaySpeed: 5000,
+        // asNavFor: '.slider-text',
     });
 
-    $('.slider-text').slick({
-        slidesToShow: 1,
-        autoplay: true,
-        speed: 1000,
-        autoplaySpeed: 5000,
-        arrows: false,
-        adaptiveHeight: true,
-        asNavFor: '.slider-img',
-    });
+    // $('.slider-text').slick({
+    //     slidesToShow: 1,
+    //     speed: 1000,
+    //     // autoplay: true,
+    //     // autoplaySpeed: 5000,
+    //     arrows: false,
+    //     adaptiveHeight: true,
+    //     asNavFor: '.slider-img',
+    // });
 
 
     $('.where-to-buy-icons').slick({
